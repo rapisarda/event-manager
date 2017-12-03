@@ -12,8 +12,6 @@
             "email": "nicolas@rapisarda.fr"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {},
     "autoload": {
         "psr-4": {
             "Rapisarda\\EventManager\\": "src/"
