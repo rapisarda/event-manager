@@ -1,0 +1,27 @@
+{
+    "name": "rapisarda/event-manager",
+    "description": "psr 14 implementation",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nicolas rapisarda",
+            "email": "nicolas@rapisarda.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Rapisarda\\EventManager\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rapisarda\\EventManager\\Test\\": "test/"
+        }
+    }
+}
